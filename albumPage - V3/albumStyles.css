@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Ravi+Prakash);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+    background-color: #c6e2ff;
+    font-family: Raleway;
+}
+li {
+    font-family: Ravi Prakash;
+    font-weight: bold;
+    color: #0a014d;
+    font-size: 30px;
+}
+#cast {
+    text-decoration: underline;
+}
+h2 {
+    text-decoration: underline;
+}

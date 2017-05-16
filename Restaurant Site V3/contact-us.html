@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cook Out - Contact Us</title>
+        <link rel="stylesheet" href="restaurantStyles.css">
+        <style>
+            .container .textInput  {
+                margin-left: 20em;
+                margin-bottom: 5px;
+            }
+            .container textarea {
+                margin-left: 20em;
+                margin-bottom: 5px;
+            }
+            .container select {
+                margin-left: 20em;
+                margin-bottom: 5px;
+            }
+            .container label {
+                position: absolute;
+            }
+        </style>
+    </head>
+    <form action="somePage.html" method="POST">
+        <h1 class="siteName">Cook Out</h1>
+        <hr />
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact-us.html">Contact Us</a>
+        <hr />
+        <div class="container">
+        <label style="margin-right: 20px;" class="required">Name:</label><input type="text" name="eName" class="textInput"><br />
+        <label class="required">Email:</label><input type="text" name="eEmail" class="textInput"><br />
+        <label class="required">Phone:</label><input type="text" name="ePhone" class="textInput"><br />
+        <label class="required">Reason for Inquiry:</label><select name="eReason">
+                                <option value="Catering">Catering</option>
+                                <option value="Private Party">Private Party</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Other">Other</option>
+                                </select>
+        <br />
+        <label>Additional Information:</label><textarea name="comment"></textarea><br />
+        <label style="margin-top: 15px;" class="required">Have you been to the restaurant?</label><input type="radio" name="yesNo" value="No" style="margin-left: 267px; margin-bottom: 5px;; margin-top: 15px;" checked/>No
+                                         <input type="radio" name="yesNo" value="Yes"/>Yes
+        <br />
+        <label style="margin-top: 15px;" class="required">Best days to contact you:</label><input type="checkbox" name="eMonday" value="Monday" style="margin-left: 267px; margin-bottom: 5px; margin-top: 15px"/>M
+                                  <input type="checkbox" name="eTuesday" value="Tuesday"/>T
+                                  <input type="checkbox" name="eWednesday" value="Wednesday"/>W
+                                  <input type="checkbox" name="eThursday" value="Thursday"/>Th
+                                  <input type="checkbox" name="eFriday" value="Friday"/>F
+        <br />                         
+                                  <input type="submit" name="eSubmit" value="Send Request" style="margin-top: 20px; margin-left: 26em;"/>
+        </div>
+        <div id="contact">
+            <hr />
+            <h3>319 W 48th St, New York, NY 10036</h3>
+            <h3>+1 212-245-7000</h3>
+            <hr />
+        </div>
+    </form>
+</html>

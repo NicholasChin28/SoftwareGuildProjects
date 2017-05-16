@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Ravi+Prakash);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Calligraffitti);
+body {
+    background-color: #c6e2ff;
+    font-family: Raleway;
+}
+li {
+    font-family: Ravi Prakash;
+    font-weight: bold;
+    color: #0a014d;
+    font-size: 30px;
+}
+#cast {
+    text-decoration: underline;
+    font-family: Calligraffitti, sans-serif;
+}
+h2 {
+    text-decoration: underline;
+}
+#albumTitle {
+    font-family: Calligraffitti, sans-serif;
+}
+table {
+    background-color: #fff5ee;
+}
+a:link {
+    color: greenyellow;
+    text-decoration: none;
+}
+a:visited {
+    color: lightskyblue;
+    text-decoration: none;
+}
+a:hover {
+    color: coral;
+    background-color: black;
+    text-decoration: underline;
+}
+a:active {
+    color: purple;
+    text-decoration: none;
+}

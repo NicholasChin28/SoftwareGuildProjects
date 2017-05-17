@@ -1,0 +1,37 @@
+//Sample Element
+
+#div1 {
+    height: 150px;
+    width: 400px;
+    margin: 20px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+//Calculations
+
+1. Total height: 
+    (Content height) + (Margin top) + (Border top) + (Padding top) + (Margin bottom) +
+    (Border bottom) + (Padding bottom)
+
+    = 150 + 20 + 1 + 10 + 20 + 1 + 10
+    = 212 px
+
+2. Total width:
+    (Content width) + (Margin left) + (Border left) + (Padding left) + (Margin right) +
+    (Border right) + (Padding right)
+
+    = 400 + 20 + 1 + 10 + 20 + 1 + 10
+    = 462 px
+
+3. Browser calculated height:
+    (Content height) + (Border top) + (Padding top) + (Border bottom) + (Padding bottom)
+
+    = 150 + 1 + 10 + 1 + 10
+    = 172 px
+
+4. Browser calculated width:
+    (Content width) + (Border left) + (Padding left) + (Border right) + (Padding right)
+
+    = 400 + 1 + 10 + 1 + 10
+    = 422 px

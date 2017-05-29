@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cook Out - Contact Us</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="restaurantStyles.css">
+        <style>
+            .formItems {
+                margin-top: 20px;
+            }
+            .formItems .textInput  {
+                margin-left: 20em;
+                margin-bottom: 5px;
+            }
+            .formItems textarea {
+                margin-left: 20em;
+                margin-bottom: 5px;
+            }
+            .formItems select {
+                margin-left: 20em;
+                margin-bottom: 5px;
+            }
+            .formItems label {
+                position: absolute;
+            }
+        </style>
+    </head>
+    <form action="somePage.html" method="POST">
+        <div class="page-header">
+            <h1 class="siteName">Cook Out</h1>
+            <p style="text-align: center;">New location opened -<a href="http://i0.kym-cdn.com/entries/icons/original/000/021/572/rtPJmdgf.jpg" style="font-weight: bold; color: aqua;" target="_blank">Click to know more!</a></p>
+        </div>
+        <ul class="nav nav-tabs">
+            <li><a href="index.html" class="nav"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="menu.html" class="nav">Menu</a></li>
+            <li><a href="contact-us.html" class="nav">Contact Us</a></li>
+        </ul>
+        <div class="formItems">
+        <label style="margin-right: 20px;" class="required">Name:</label><input type="text" name="eName" class="textInput"><br />
+        <label class="required">Email:</label><input type="text" name="eEmail" class="textInput"><br />
+        <label class="required">Phone:</label><input type="text" name="ePhone" class="textInput"><br />
+        <label class="required">Reason for Inquiry:</label><select name="eReason">
+                                <option value="Catering">Catering</option>
+                                <option value="Private Party">Private Party</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Other">Other</option>
+                                </select>
+        <br />
+        <label>Additional Information:</label><textarea name="comment"></textarea><br />
+        <label style="margin-top: 15px;" class="required">Have you been to the restaurant?</label><input type="radio" name="yesNo" value="No" style="margin-left: 267px; margin-bottom: 5px;; margin-top: 15px;" checked/>No
+                                         <input type="radio" name="yesNo" value="Yes"/>Yes
+        <br />
+        <label style="margin-top: 15px;" class="required">Best days to contact you:</label><input type="checkbox" name="eMonday" value="Monday" style="margin-left: 267px; margin-bottom: 5px; margin-top: 15px"/>M
+                                  <input type="checkbox" name="eTuesday" value="Tuesday"/>T
+                                  <input type="checkbox" name="eWednesday" value="Wednesday"/>W
+                                  <input type="checkbox" name="eThursday" value="Thursday"/>Th
+                                  <input type="checkbox" name="eFriday" value="Friday"/>F
+        <br />                         
+                                  <input type="submit" name="eSubmit" value="Send Request" style="margin-top: 20px; margin-left: 26em;"/>
+        </div>
+        <div class="container foot-container" style="margin-top: 10%;">
+            <div class="row row-centered">
+                <div class="col-lg-12 col-centered" id="address">
+                    <h3 style="text-align: center;">319 W 48th St, New York, NY 10036</h3>
+                </div>
+            </div>
+
+            <div class="row row-centered">
+                <div class="col-lg-12 col-centered" id="number">
+                    <h3 style="text-align: center;">+1 212-245-7000</h3>
+                </div>
+            </div>
+        </div>
+    </form>
+</html>
